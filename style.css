@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.hide{
+    display: none;
+}
+.score{
+    position: absolute;
+    top:15px;
+    left: 40px;
+    background: #10ac84;
+    width: 300px;
+    /* height: 70px; */
+    line-height: 70px;
+    text-align: center;
+    color: white;
+    font-size: 1.5em;
+    box-shadow: 0 5px 5px #777;
+}
+.startScreen{
+position: absolute;
+background-color: #ee5253;
+left: 50%;
+top: 50%;
+transform: translate(-50%,-50%);
+color: white;
+z-index: 1;
+text-align: center;
+border: 1px solid #ff6b6b;
+padding: 15px;
+margin: auto;
+width: 50%;
+cursor: pointer;
+letter-spacing: 5;
+word-spacing: 3;
+font-size: 20px;
+line-height: 30px;
+text-transform: uppercase;
+box-shadow: 0 5px 5px #777;
+
+}
+.carGame{
+    width: 100%;
+    height: 100vh;
+    background: chartreuse;
+}
+/* Car & enemy class  manually created with js */
+.car,.enemy{
+    width: 50px;
+    height: 70px;
+    background: red;
+    position: absolute;
+    bottom: 50px;
+}
+
+.lines{
+    width: 10px;
+    height: 100px;
+    background: white;
+    position: absolute;
+    margin-left: 195px;
+}
+.gameArea{
+    width: 400px;
+    height: 100vh;
+    margin: auto;
+    background: #2d3436;
+    position: relative;
+    overflow: hidden;
+    border-right: 7px dashed white;
+    border-left: 7px dashed white;
+}
